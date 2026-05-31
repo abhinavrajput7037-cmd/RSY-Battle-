@@ -213,7 +213,7 @@ android {
             dimension "webview"
         }
     }
-    namespace 'xyz.rsybattle.app'
+    namespace 'co.median.android'
     testNamespace 'co.median.android.odmkexk.test'
     buildFeatures {
         buildConfig true
