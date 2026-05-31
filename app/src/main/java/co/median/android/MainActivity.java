@@ -447,7 +447,7 @@ public class MainActivity extends AppCompatActivity implements Observer,
 
         // ── RSY Battle Native Bridge ──
         RsyBridgeHandler rsyBridge = new RsyBridgeHandler(this);
-        this.mWebview.addJavascriptInterface(rsyBridge, "rsyNative");
+        ((android.webkit.WebView) this.mWebview).addJavascriptInterface(rsyBridge, "rsyNative");
 
         // Request overlay permission on first launch
         if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.M) {

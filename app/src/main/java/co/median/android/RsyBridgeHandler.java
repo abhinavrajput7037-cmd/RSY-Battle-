@@ -112,7 +112,7 @@ public class RsyBridgeHandler {
             okBtn.setTextSize(16f);
             okBtn.setTypeface(android.graphics.Typeface.DEFAULT_BOLD);
             GradientDrawable btnBg = new GradientDrawable(
-                GradientDrawable.Orientation.LR_BT,
+                GradientDrawable.Orientation.LEFT_RIGHT,
                 new int[]{0xFFFF6B35, 0xFFFF4444}
             );
             btnBg.setCornerRadius(50f);
