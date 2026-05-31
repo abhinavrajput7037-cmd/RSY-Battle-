@@ -142,7 +142,7 @@ android {
         compileSdk 36
         minSdkVersion 23
         targetSdkVersion 36
-        applicationId "co.median.android.odmkexk"
+        applicationId "xyz.rsybattle.app"
         versionCode 18
         multiDexEnabled true
         vectorDrawables.useSupportLibrary = true
@@ -213,7 +213,7 @@ android {
             dimension "webview"
         }
     }
-    namespace 'co.median.android'
+    namespace 'xyz.rsybattle.app'
     testNamespace 'co.median.android.odmkexk.test'
     buildFeatures {
         buildConfig true
